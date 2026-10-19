@@ -9,6 +9,8 @@
 
 # Keep the public project files.
 !/LICENSE
+!/LICENSE-UPSTREAM.txt
+!/NOTICE.txt
 !/README.md
 
 # Keep all Unreal content.

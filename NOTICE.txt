@@ -1,0 +1,31 @@
+AP-GOA-KH3 - origin, attribution and modification notices
+
+Upstream project: KH3-Rando-GoA
+https://github.com/Water-and-Critic/KH3-Rando-GoA
+Original main developers: WaterKH and CriticPerfect (Criticp).
+Upstream license: Apache License, Version 2.0; the complete, unmodified text
+is included in LICENSE-UPSTREAM.txt. Upstream license and credits were checked
+at revision 54bea445a0c752721776ea7692f2f1663654564f.
+
+Credits retained from the upstream README:
+- WaterKH and CriticPerfect: original Kingdom Hearts III randomizer and
+  Garden of Assemblage project.
+- Televo: portal sprites and KH Item Tracker.
+  https://ko-fi.com/televo
+  https://tracker.zaxu.xyz/
+- Kimpchuu: original website design and the Proof of Fantasies design.
+  https://twitter.com/Kimpchuu
+
+AP adaptation and changes:
+AP-GOA-KH3 contains Archipelago-specific Unreal content, including the KH3AP
+and KH3APDiagnostics actors, and modifications to the inherited GoA content.
+These AP changes are maintained in https://github.com/ashandarei/AP-GOA-KH3;
+its version history records the changes to individual content files.
+This notice identifies the AP adaptation as modified from the upstream work.
+Notice updated: 2026-10-19.
+
+The AP derivative retains its existing GPL version 3 license in LICENSE.
+The inherited upstream material retains its Apache-2.0 terms and attribution.
+Keep LICENSE, LICENSE-UPSTREAM.txt and this NOTICE.txt with source and pak
+redistributions. No endorsement by the upstream authors is implied.
+Game and engine content retain their respective owners' rights.

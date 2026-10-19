@@ -4,6 +4,15 @@
 
 An unreal project for modding Kingdom Hearts III
 
+# Origin and licensing
+
+This Archipelago adaptation builds on [KH3-Rando-GoA](https://github.com/Water-and-Critic/KH3-Rando-GoA), originally developed by WaterKH and CriticPerfect, with the additional contributors credited below.
+
+The AP derivative retains the existing [GPL version 3 license](LICENSE). Inherited upstream material retains its [Apache License 2.0 terms](LICENSE-UPSTREAM.txt); the GPL declaration does not replace those terms or attributions. [NOTICE.txt](NOTICE.txt) records the upstream origin, credits and AP modification notice. AP-specific Unreal content and changes to inherited GoA assets are recorded in this repository's version history.
+
+Keep all three legal files with source and pak redistributions. Release downloads provide them alongside the pak. These licenses cover the relevant mod contributions; game and engine content retain their respective owners' rights.
+
+
 # Discord Server
 
 Join the OpenKH [discord server](https://discord.openkh.dev/) to learn more about modding.
