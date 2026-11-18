@@ -1,0 +1,16 @@
+Component license boundaries
+============================
+
+The pre-existing GoA content, GPL license, upstream Apache license and NOTICE.txt
+remain unchanged. Game and engine material retain their respective owners' rights.
+
+The migrated scripts/ and tools/ sources came from the MIT-licensed Archipelago
+checkout outside its worlds/kh3 GPL scope. Preserve that license in LICENSE-TOOLS.txt
+and any existing per-file notices. Moving these files does not relicense them.
+
+The migrated tests/ originated in the GPL-3.0-only KH3 world directory.
+Copyright (c) 2026 Aesais and contributors. They retain GPL-3.0-only; see LICENSE.
+
+Data and artwork moved from the KH3 world retain their existing notices and terms,
+reproduced under licenses/. No additional rights to third-party game, engine,
+artwork or fonts are granted by this move.
