@@ -1,0 +1,383 @@
+{
+  "Rows": {
+    "HE_SAVE07": {
+      "WorldCode": "TRES_WCID_HE",
+      "SavePointName": "he_02_AutoSave_02",
+      "MapName": "/Game/Levels/he/he_02/he_02",
+      "MapNameNamespaceKey": "kh3_map.he.he_02",
+      "AreaNameNamespaceKey": "kh3_map.he.he_02_0020",
+      "IconAsset": "/Game/UI/Icon/AreaSelect/he02_Save01.he02_Save01",
+      "UIPriority": 43,
+      "EnableGameFlag": {
+        "FlagName": "gameflow_HE",
+        "FlagLabelName": "HE_OLYMPUS_VISIT1_1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_HE",
+        "FlagLabelName": "HE_OLYMPUS_VISIT1_1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "DisableGameFlag": {
+        "FlagName": "gameflow_HE",
+        "FlagLabelName": "HE_THEBES_VISIT1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "RestrictionStartGameFlag": [
+        {
+          "FlagName": "gameflow_HE",
+          "FlagLabelName": "HE_OLYMPUS_EVENT2",
+          "bGameCleared": false,
+          "bReMindCleared": false
+        }
+      ],
+      "RestrictionEndGameFlag": [
+        {
+          "FlagName": "gameflow_HE",
+          "FlagLabelName": "HE_OLYMPUS_EVENT3",
+          "bGameCleared": false,
+          "bReMindCleared": false
+        }
+      ],
+      "EnableLanding": true
+    },
+    "FZ_SAVE08": {
+      "WorldCode": "TRES_WCID_FZ",
+      "SavePointName": "fz_02_Lv_AP_Save_01",
+      "MapName": "/Game/Levels/fz/fz_02/fz_02",
+      "MapNameNamespaceKey": "kh3_map.fz.fz_02",
+      "AreaNameNamespaceKey": "kh3_map.fz.fz_02_0020",
+      "IconAsset": "/Game/UI/Icon/AreaSelect/fz02_Save01.fz02_Save01",
+      "UIPriority": 25,
+      "EnableGameFlag": {
+        "FlagName": "gameflow_FZ",
+        "FlagLabelName": "FZ_MOUNTAIN_EVENT2",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_FZ",
+        "FlagLabelName": "FZ_MOUNTAIN_EVENT2",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "DisableGameFlag": {
+        "FlagName": "gameflow_FZ",
+        "FlagLabelName": "FZ_ICICLE_AREA_E_EVENT1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": [],
+      "EnableLanding": true
+    },
+    "KG_RE_SAVE01": {
+      "WorldCode": "TRES_WCID_KG",
+      "SavePointName": "kg_02_Lv_Save_01",
+      "MapName": "/Game/Levels/kg_DLC/kg_05/kg_05",
+      "MapNameNamespaceKey": "kh3_map.kg.kg_02",
+      "AreaNameNamespaceKey": "kh3_map.kg.kg_02_0010",
+      "IconAsset": "/Game/UI/Icon/AreaSelect/kg02_Save01.kg02_Save01",
+      "UIPriority": 10,
+      "EnableGameFlag": {
+        "FlagName": "gameflow_KG_DLC",
+        "FlagLabelName": "KG_DLC_04_EVENT_07",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_KG_DLC",
+        "FlagLabelName": "KG_DLC_04_EVENT_07",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "DisableGameFlag": {
+        "FlagName": "None",
+        "FlagLabelName": "None",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": [],
+      "EnableLanding": true
+    },
+    "KG_RE_SAVE02": {
+      "WorldCode": "TRES_WCID_KG",
+      "SavePointName": "kg_02_Lv_Save_02",
+      "MapName": "/Game/Levels/kg_DLC/kg_05/kg_05",
+      "MapNameNamespaceKey": "kh3_map.kg.kg_02",
+      "AreaNameNamespaceKey": "kh3_map.kg.kg_02_0020",
+      "IconAsset": "/Game/UI/Icon/AreaSelect/kg02_Save02.kg02_Save02",
+      "UIPriority": 15,
+      "EnableGameFlag": {
+        "FlagName": "gameflow_KG_DLC",
+        "FlagLabelName": "KG_02_BATTLE_AB",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_KG_DLC",
+        "FlagLabelName": "KG_02_BATTLE_AB",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "DisableGameFlag": {
+        "FlagName": "None",
+        "FlagLabelName": "None",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": [],
+      "EnableLanding": true
+    },
+    "KG_RE_SAVE03": {
+      "WorldCode": "TRES_WCID_KG",
+      "SavePointName": "kg_02_Lv_Save_03",
+      "MapName": "/Game/Levels/kg_DLC/kg_05/kg_05",
+      "MapNameNamespaceKey": "kh3_map.kg.kg_02",
+      "AreaNameNamespaceKey": "kh3_map.kg.kg_02_0030",
+      "IconAsset": "/Game/UI/Icon/AreaSelect/kg02_Save03.kg02_Save03",
+      "UIPriority": 19,
+      "EnableGameFlag": {
+        "FlagName": "gameflow_KG_DLC",
+        "FlagLabelName": "KG_02_BATTLE_CD",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_KG_DLC",
+        "FlagLabelName": "KG_02_BATTLE_CD",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "DisableGameFlag": {
+        "FlagName": "None",
+        "FlagLabelName": "None",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": [],
+      "EnableLanding": true
+    },
+    "KG_RE_BT_SAVE01": {
+      "WorldCode": "TRES_WCID_KG",
+      "SavePointName": "bt_01_Lv_Save_01",
+      "MapName": "/Game/Levels/bt_DLC/bt_08/bt_08",
+      "MapNameNamespaceKey": "kh3_map.bt.bt_01",
+      "AreaNameNamespaceKey": "",
+      "IconAsset": "/Game/UI/Icon/AreaSelect/bt01_Save01.bt01_Save01",
+      "UIPriority": 20,
+      "EnableGameFlag": {
+        "FlagName": "gameflow_BT_DLC",
+        "FlagLabelName": "BT_DLC_08_EVENT_01",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_BT_DLC",
+        "FlagLabelName": "BT_DLC_08_EVENT_01",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "DisableGameFlag": {
+        "FlagName": "None",
+        "FlagLabelName": "None",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": [],
+      "EnableLanding": true
+    },
+    "KG_RE_BT_SAVE02": {
+      "WorldCode": "TRES_WCID_KG",
+      "SavePointName": "bt_07_Lv_Save_01",
+      "MapName": "/Game/Levels/bt_DLC/bt_07/bt_07",
+      "MapNameNamespaceKey": "kh3_map.bt.bt_07",
+      "AreaNameNamespaceKey": "",
+      "IconAsset": "/Game/UI/Icon/AreaSelect/bt01_Save01.bt01_Save01",
+      "UIPriority": 30,
+      "EnableGameFlag": {
+        "FlagName": "gameflow_BT_DLC",
+        "FlagLabelName": "BT_DLC_08_BATTLE_01",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_BT_DLC",
+        "FlagLabelName": "BT_DLC_08_BATTLE_01",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "DisableGameFlag": {
+        "FlagName": "None",
+        "FlagLabelName": "None",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": [],
+      "EnableLanding": true
+    },
+    "KG_RE_BT_SAVE03": {
+      "WorldCode": "TRES_WCID_KG",
+      "SavePointName": "rg_03_Lv_Save_01",
+      "MapName": "/Game/Levels/rg_DLC/rg_03/rg_03",
+      "MapNameNamespaceKey": "kh3_map.rg.rg_03",
+      "AreaNameNamespaceKey": "",
+      "IconAsset": "/Game/UI/Icon/AreaSelect/bt01_Save01.bt01_Save01",
+      "UIPriority": 40,
+      "EnableGameFlag": {
+        "FlagName": "gameflow_RG_DLC",
+        "FlagLabelName": "RG_DLC_MAR_EVENT_01",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_RG_DLC",
+        "FlagLabelName": "RG_DLC_MAR_EVENT_01",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "DisableGameFlag": {
+        "FlagName": "None",
+        "FlagLabelName": "None",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": [],
+      "EnableLanding": true
+    }
+  },
+  "Overrides": {
+    "KG_SAVE01": {
+      "EnableGameFlag": {
+        "FlagName": "gameflow_KG",
+        "FlagLabelName": "KG_01_BATTLE1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_KG",
+        "FlagLabelName": "KG_01_BATTLE1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "EnableLanding": true
+    },
+    "KG_SAVE02": {
+      "EnableGameFlag": {
+        "FlagName": "gameflow_KG",
+        "FlagLabelName": "KG_50_CS_KG854",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_KG",
+        "FlagLabelName": "KG_50_CS_KG854",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "EnableLanding": true
+    },
+    "KG_SAVE03": {
+      "EnableGameFlag": {
+        "FlagName": "gameflow_KG",
+        "FlagLabelName": "KG_02_BATTLE_AB",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_KG",
+        "FlagLabelName": "KG_02_BATTLE_AB",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "EnableLanding": true
+    },
+    "KG_SAVE04": {
+      "EnableGameFlag": {
+        "FlagName": "gameflow_KG",
+        "FlagLabelName": "KG_02_BATTLE_CD",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_KG",
+        "FlagLabelName": "KG_02_BATTLE_CD",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      },
+      "EnableLanding": true
+    },
+    "KG_SAVE05": {
+      "EnableLanding": false
+    },
+    "WorldMap": {
+      "SavePointName": "NormalSpawn",
+      "MapName": "/Game/Maps/GardenOfAssemblage/umap/GoA_01"
+    },
+    "MI_SAVE01": {
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": []
+    },
+    "MI_SAVE02": {
+      "RestrictionStartGameFlag": [],
+      "RestrictionEndGameFlag": []
+    },
+    "MI_SAVE03": {
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_MI",
+        "FlagLabelName": "MI_FACTORY_EVENT1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      }
+    },
+    "MI_SAVE04": {
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_MI",
+        "FlagLabelName": "MI_FACTORY_EVENT3",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      }
+    },
+    "MI_SAVE05": {
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_MI",
+        "FlagLabelName": "MI_FACTORY_EVENT5",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      }
+    },
+    "MI_SAVE06": {
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_MI",
+        "FlagLabelName": "MI_PLANT_REAL1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      }
+    },
+    "MI_SAVE07": {
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_MI",
+        "FlagLabelName": "MI_DOORBOSS_EVENT1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      }
+    },
+    "TS_SAVE06": {
+      "ForceOpenGameFlag": {
+        "FlagName": "gameflow_TS",
+        "FlagLabelName": "TS_ATHLETIC_EVENT1",
+        "bGameCleared": false,
+        "bReMindCleared": false
+      }
+    }
+  }
+}
