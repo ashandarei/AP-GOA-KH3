@@ -1,18 +1,39 @@
-# This repository intentionally publishes only Unreal content assets plus
-# the top-level project documentation/license files.
+# Keep source, authoring inputs, and notices; local tools and build outputs stay external.
 
 # Ignore everything at the repository root by default.
 /*
 
 # Keep Git metadata/configuration files that should be versioned.
 !/.gitignore
+!/.github/
 
 # Keep the public project files.
 !/LICENSE
 !/LICENSE-UPSTREAM.txt
 !/NOTICE.txt
 !/README.md
+!/COPYRIGHT.txt
+!/LICENSE-TOOLS.txt
+!/.env.example
+!/pytest.ini
+!/requirements-dev.txt
+!/scripts/
+!/tools/
+!/tests/
+!/data/
+!/docs/
+!/licenses/
 
 # Keep all Unreal content.
 !/Content/
 !/Content/**
+
+**/__pycache__/
+**/bin/
+**/obj/
+**/.pytest_cache/
+*.pyc
+/build/
+/.env
+/.env.*
+!/.env.example
